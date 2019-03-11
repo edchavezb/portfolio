@@ -85,6 +85,16 @@ footer {
     width: 100%;
   }
 
+  .content {
+    width: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  h1 {
+    padding-left: 0.5rem;
+  }
+
   .logo {
     width: 100%;
     float: none;
