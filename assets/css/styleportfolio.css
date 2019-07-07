@@ -8,7 +8,7 @@
     overflow: hidden;
 }
 
-.rowtwo{
+.rowtwo, .rowthree{
     width: 96%;
     height: auto;
     margin-left: 2%;
@@ -19,6 +19,8 @@
 
 .project {
     width: 30%;
+    float: left;
+    position: relative;
 }
 
 .responsive{
@@ -31,23 +33,21 @@
     opacity: 0.85;
 }
 
-#projectone, #projecttwo, #projectthree, #projectfour, #projectfive, #projectsix {
-    float: left;
-    position: relative;
-}
-
 @media (min-width:768px) {
 
-    #projectone, #projectfour {
+    #projectone, #projectfour, #projectseven {
         margin-right: 5%;
     }
 
-    #projectthree, #projectsix {
+    #projectthree, #projectsix, #projectnine {
         margin-left: 5%;
     }
 
-    .rowtwo{
+    .rowtwo, .rowthree{
         margin-top: 20px;
+    }
+
+    .rowthree{
         margin-bottom: 30px;
     }
 }
