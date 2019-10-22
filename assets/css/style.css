@@ -54,6 +54,7 @@ nav {
 
 a {
   color: #777777;
+  text-decoration: none;
 }
 
 .title-style{
@@ -61,6 +62,10 @@ a {
 	font-weight: bold;
   text-align: center;
   color: rgb(20, 40, 59);
+}
+
+.portfolio-title, .contact-title{
+  margin-top: 10vh;
 }
 
 footer {
