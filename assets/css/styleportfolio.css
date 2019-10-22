@@ -59,7 +59,7 @@ body{
 	}
 
 	.rowthree{
-		margin-bottom: 30px;
+		margin-bottom: 8vh;
 	}
 }
 
@@ -76,6 +76,10 @@ body{
 		width: 100%;
 		padding-left: 0%;
 		padding-right: 0%;
+	}
+
+	.rowone {
+		margin-top: 5vh;
 	}
 }
 
