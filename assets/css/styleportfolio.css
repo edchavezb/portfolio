@@ -1,83 +1,96 @@
+body{
+	margin: 0px;
+}
+
 .rowone {
-    width: 96%;
-    height: auto;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 30px;
-    clear: both;
-    overflow: hidden;
+	width: 96%;
+	height: auto;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-top: 30px;
+	clear: both;
+	overflow: hidden;
 }
 
 .rowtwo, .rowthree{
-    width: 96%;
-    height: auto;
-    margin-left: 2%;
-    margin-right: 2%;
-    clear: both;
-    overflow: hidden;
+	width: 96%;
+	height: auto;
+	padding-left: 2%;
+	padding-right: 2%;
+	clear: both;
+	overflow: hidden;
 }
 
 .project {
-    width: 30%;
-    float: left;
-    position: relative;
+	width: 30%;
+	float: left;
+	position: relative;
 }
 
 .responsive{
-    width: 100%;
-    max-width: 300px;
-    border-radius: 3px;
+	width: 100%;
+	border-radius: 3px;
 }
 
 .responsive:hover {
-    opacity: 0.85;
+	opacity: 0.85;
+}
+
+@media (min-width: 992px) {
+	.rowone, .rowtwo, .rowthree{
+		width: 80%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
 }
 
 @media (min-width:768px) {
 
-    #projectone, #projectfour, #projectseven {
-        margin-right: 5%;
-    }
+	#projectone, #projectfour, #projectseven {
+		margin-right: 5%;
+	}
 
-    #projectthree, #projectsix, #projectnine {
-        margin-left: 5%;
-    }
+	#projectthree, #projectsix, #projectnine {
+		margin-left: 5%;
+	}
 
-    .rowtwo, .rowthree{
-        margin-top: 20px;
-    }
+	.rowtwo, .rowthree{
+		margin-top: 20px;
+	}
 
-    .rowthree{
-        margin-bottom: 30px;
-    }
+	.rowthree{
+		margin-bottom: 30px;
+	}
 }
 
 @media (max-width:768px) {
-    .project {
-        width: 80%;
-        float: none;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-bottom: 20px;
-    }
+	.project {
+		width: 90%;
+		float: none;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 20px;
+	}
 
-    .rowone, .rowtwo {
-        width: 100%;
-    }
+	.rowone, .rowtwo {
+		width: 100%;
+		padding-left: 0%;
+		padding-right: 0%;
+	}
 }
 
 /*.projectlabel {
-    position: absolute;
-    margin-top: -45px;
-    width: 200px;
-    height: 35px;
-    background: #4aaaa5; 
+	position: absolute;
+	margin-top: -45px;
+	width: 200px;
+	height: 35px;
+	background: #4aaaa5; 
 
-    color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-    font-weight: bold;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 35px;
+	color: #ffffff;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 35px;
 }
