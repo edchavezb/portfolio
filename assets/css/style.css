@@ -90,7 +90,7 @@ footer {
     width: 90%;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    min-height: 72vh;
+    min-height: 74vh;
   }
 
   .logo {
@@ -120,7 +120,7 @@ footer {
   }
 
   .title-style{
-    margin-top: 5vh;
+    margin-top: 3vh;
   }
 }
 
