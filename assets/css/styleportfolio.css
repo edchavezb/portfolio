@@ -63,7 +63,7 @@ body{
 }
 
 .project:hover .card-front {
-	top: -100%;
+	transform: translateY(-100%)
 }
 
 .responsive{
