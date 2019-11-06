@@ -62,8 +62,16 @@ body{
 	
 }
 
-.project:hover .card-front {
+.hoverable:hover .card-front {
 	transform: translateY(-100%)
+}
+
+.unfolded{
+	transform: translateY(-100%)
+}
+
+.folded{
+	transform: translateY(0%)
 }
 
 .responsive{
