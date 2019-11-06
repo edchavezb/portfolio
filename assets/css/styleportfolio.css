@@ -226,6 +226,9 @@ body{
 	.description, .spec{
 		font-size: 1em;
 	}
+	.rowtwo{
+		margin-bottom: 2vh;
+	}
 }
 
 @media (max-width:400px) {
