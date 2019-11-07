@@ -77,8 +77,6 @@ footer {
   background: #25486C;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  vertical-align: middle;
-  /* line-height: 75px; */
 }
 
 .social-media-icon{
@@ -86,6 +84,12 @@ footer {
   color: #f4f4f4dc;
   font-size: 25px;
   margin: 0 10px;
+}
+
+.icon{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 @media (max-width:640px){
