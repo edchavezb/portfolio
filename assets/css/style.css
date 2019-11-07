@@ -1,11 +1,9 @@
-html{
+html,body {
+  width: 100%;
   height: 100%;
-}
-
-body{
-  min-height: 100%;
+  margin: 0px;
   padding: 0px;
-  margin: 0px
+  overflow-y: hidden;
 }
 
 .wrapper{
@@ -84,6 +82,7 @@ footer {
   text-align: center;
   vertical-align: middle;
   line-height: 75px;
+  margin-bottom: -2px
 }
 
 .social-media-icon{
