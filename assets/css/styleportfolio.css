@@ -5,8 +5,17 @@
 	overflow: hidden;
 }
 
-.rowone{
-	margin-top: 8vh;
+#projects {
+	margin-top: 10vh;
+	margin-bottom: 15vh;
+}
+
+#projects-title {
+	text-align: center;
+	margin-top: 12vh;
+	margin-bottom: 50px;
+	font-size: 2em;
+	font-weight: bold;
 }
 
 .secondary{

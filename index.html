@@ -6,57 +6,328 @@
   <title>Edgar Chávez</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/styleindex.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/styleportfolio.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/stylecontact.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/laptop.css">
   <link href="https://fonts.googleapis.com/css?family=Barlow|Barlow+Semi+Condensed|Nunito+Sans&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/636811dab3.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 </head>
 
 <body>
-  <div class="wrapper">
 
-    <section class="nav-bar">
-
-      <div class="nav-content">
-
-        <div class="logo">
-        Edgar Chávez
-      </div>
-
-      <nav>
-        <a href="index.html">About</a> |
-        <a href="projects.html">Projects</a> |
-        <a href="https://drive.google.com/file/d/1WzqKCgipZgrsultCHvfIt-J4gvVj5kJy/view?usp=sharing">CV</a>
-      </nav>
-
-      </div>
-
-    </section>
-
-    <section class="content">
-      <h1 class="title-style">
-        About Me
-      </h1>
-
-      <div class="bio-container">
-      
-        <img class="bio-image" src="https://i.imgur.com/PTMb562.png?2" alt="Edgar">
-        
-        <div class="mainbio">
-          <p class="top-paragraph">Hello! My name is Edgar and I am a Full-stack Web Developer currently living in Mexico City. I am a curious and motivated professional who would love to build something that helps people and communities function more efficiently and sustainably. My favorite activities are API and React development. I have experience working with Javascript, CSS, Node.js, Express, MongoDB, MySQL, Firebase and jQuery, among others.</p>
-          <p>I successfully completed a full-stack development bootcamp offered by Tecnológico de Monterrey. This six-month course helped me acquire technical skills to build scalable web applications by learning modern frontend and backend technologies. Across three major projects, I worked with a team of fellow developers and learned to use version control software to segment the workload.</p>
-          <a href="projects.html"><h3 class="title-style portfolio-link"> See some of my work! </h3></a>
-        </div>
-
-      </div>
-        
-    </section>
-
+  <div id="contact-bar">
+    <div class="social-icon">
+      <a href="https://github.com/edchavezb"><img class="icon-svg" src="./assets/images/github.svg" alt="Git"></a>
+    </div>
+    <div class="social-icon">
+      <a href="https://linkedin.com/in/edchavezb"><img class="icon-svg" src="./assets/images/linkedin.svg" alt="Linkedin"></a>
+    </div>
+    <div class="social-icon">
+      <a href="mailto:edgp.chavez@gmail.com"><img class="icon-svg" src="./assets/images/at-sign.svg" alt="Email"></a>
+    </div>
   </div>
 
+  <section class="nav-bar">
+
+    <div class="nav-content">
+
+      <div class="logo">
+      Edgar Chávez
+    </div>
+
+    <nav>
+      <a href="https://drive.google.com/file/d/1WzqKCgipZgrsultCHvfIt-J4gvVj5kJy/view?usp=sharing"> Download CV</a>
+    </nav>
+
+    </div>
+
+  </section>
+
+  <section class="content">
+    
+
+    <div class="bio-container">
+    
+      <img id="bio-image" src="./assets/images/edchavez.jpg" alt="Edgar">
+      
+      <div class="mainbio">
+        <p class="title-style" id="main-title">
+          Hi, I'm Edgar
+        </p>
+        <p class="top-paragraph">I am a Full-stack Web Developer currently enrolled in the second year of the Software Development and Network Engineering program at Sheridan College in Ontario, Canada. I am a curious and motivated professional who would love to build software that helps people and communities function more efficiently and sustainably. My favorite activities are REST API and React development. When I'm not coding you can probably find me playing guitar or curating playlists of various genres.</p>
+      </div>
+
+    </div>
+      
+  </section>
+
+
+  <section id="skills">
+    <div id="skills-illustration">
+      <div class="laptop">
+        <div class="laptop-screen">
+          <div class="laptop-content">
+            <h1>>Edgar's qualifications:</h1>
+            <h1>></h1>
+            <h1>>He's a team player</h1>
+            <h1>>He's very organized</h1>
+            <h1>>He's passionate about learning new skills_</h1>
+          </div>
+        </div>
+        <div class="laptop-base">
+          <div class="laptop-trackpad"></div>
+        </div>
+      </div>
+    </div>
+    <div id="skills-content">
+      <h2 class="title-style" id="skills-title"> Some of the technologies I have worked with </h2>
+      <div id="tech-stack">
+        <div class="tech-icon"><img  src="./assets/images/react.svg" alt="React"><p class="tech-text"> React </p></div>
+        <div class="tech-icon"><img  src="./assets/images/node-dot-js.svg" alt="Node"><p class="tech-text"> NodeJS </p></div>
+        <div class="tech-icon"><img  src="./assets/images/javascript.svg" alt="Javascript"><p class="tech-text"> JavaScript </p></div>
+        <div class="tech-icon"><img  src="./assets/images/jquery.svg" alt="jQuery"><p class="tech-text"> jQuery </p></div>
+        <div class="tech-icon"><img  src="./assets/images/java.svg" alt="Java"><p class="tech-text"> Java </p></div>
+        <div class="tech-icon"><img  src="./assets/images/mysql.svg" alt="MySQL"><p class="tech-text"> MySQL </p></div>
+        <div class="tech-icon"><img  src="./assets/images/mongodb.svg" alt="MongoDB"><p class="tech-text"> MongoDB </p></div>
+        <div class="tech-icon"><img  src="./assets/images/gatsby.svg" alt="Gatsby"><p class="tech-text"> Gatsby </p></div>
+        <div class="tech-icon"><img  src="./assets/images/firebase.svg" alt="Firebase"><p class="tech-text"> Firebase </p></div>
+        <div class="tech-icon"><img  src="./assets/images/git.svg" alt="Git"><p class="tech-text"> Git </p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+
+    <p class="title-style" id="projects-title"> Projects I'm proud of </p>
+
+    <div class="row rowone">
+    
+      <div class="project hoverable" id="projectone">
+        <div class="card-front">
+          <img class="responsive" src="assets/images/dondeayudar.png" alt="Donde Ayudar">
+        </div>
+        <div class="card-back">
+          <h4 class="back-title"> Dónde Ayudar </h4>
+          <div class="description">
+            Social network for non-profits that helps them create their own profile to connnect with volunteers and contributors and post their needs in real time.
+          </div>
+          <div class="technical">
+            <div class="spec"> React.js </div>
+            <div class="spec"> Node.js </div>
+            <div class="spec"> Express </div>
+            <div class="spec"> MongoDB </div>
+            <div class="spec"> Bootstrap </div>
+            <div class="spec"> Firebase </div>
+          </div>
+          <div class="button-bar">
+            <a href="https://donde-ayudar.herokuapp.com"><div class="project-button launch">Launch</div></a>
+            <a href="https://github.com/IscoCuesta/dondeAyudar"><div class="project-button code">Code</div></a>
+          </div>
+        </div>
+      </div><div class="project hoverable" id="projecttwo">
+        <div class="card-front">
+          <img class="responsive" src="assets/images/mern-books.png" alt="MERN books">
+        </div>
+        <div class="card-back">
+          <h4 class="back-title"> MERN Books </h4>
+          <div class="description">
+            This app allows visitors to search for a book title and add it to a collective list of the best books. Uses the Google Books API to display details.
+          </div>
+          <div class="technical">
+            <div class="spec"> React.js </div>
+            <div class="spec"> Node.js </div>
+            <div class="spec"> Express </div>
+            <div class="spec"> MongoDB </div>
+            <div class="spec"> Bootstrap </div>
+            <div class="spec"> Google Books API </div>
+          </div>
+          <div class="button-bar">
+            <a href="https://recommerndations.herokuapp.com"><div class="project-button launch">Launch</div></a>
+            <a href="https://github.com/edchavezb/mern-books"><div class="project-button code">Code</div></a>
+          </div>
+        </div>
+      </div><div class="project hoverable" id="projectthree">
+        <div class="card-front">
+          <img class="responsive" src="assets/images/zoezi.png" alt="Zoezi">
+        </div>
+        <div class="card-back">
+          <h4 class="back-title"> Zoezi </h4>
+          <div class="description">
+            Fitness app that allows users to create highly-customizable workout routines and share them with their friends. It also displays fun gifs of your exercises.  
+          </div>
+          <div class="technical">
+            <div class="spec"> Javascript </div>
+            <div class="spec"> jQuery </div>
+            <div class="spec"> Bootstrap </div>
+            <div class="spec"> Firebase </div>
+            <div class="spec"> Giphy API </div>
+            <div class="spec"> Owl Carousel </div>
+          </div>
+          <div class="button-bar">
+            <a href="https://edchavezb.github.io/zoezi/"><div class="project-button launch">Launch</div></a>
+            <a href="https://github.com/edchavezb/zoezi"><div class="project-button code">Code</div></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row secondary rowmiddle">
+      <div class="project hoverable" id="projectthree-middle">
+        <div class="card-front">
+          <img class="responsive" src="assets/images/zoezi.png" alt="Zoezi">
+        </div>
+        <div class="card-back">
+          <h4 class="back-title"> Zoezi </h4>
+          <div class="description">
+            Fitness app that allows users to create highly-customizable workout routines and share them with their friends. It also displays fun gifs of your exercises.  
+          </div>
+          <div class="technical">
+            <div class="spec"> Javascript </div>
+            <div class="spec"> jQuery </div>
+            <div class="spec"> Bootstrap </div>
+            <div class="spec"> Firebase </div>
+            <div class="spec"> Giphy API </div>
+            <div class="spec"> Owl Carousel </div>
+          </div>
+          <div class="button-bar">
+            <a href="https://edchavezb.github.io/zoezi/"><div class="project-button launch">Launch</div></a>
+            <a href="https://github.com/edchavezb/zoezi"><div class="project-button code">Code</div></a>
+          </div>
+        </div>
+      </div><div class="project hoverable" id="projectfour-middle">
+        <div class="card-front">
+          <img class="responsive" src="assets/images/muy-salsa.png" alt="Muy Salsa">
+        </div>
+        <div class="card-back">
+          <h4 class="back-title"> Muy Salsa </h4>
+          <div class="description">
+            App to find the best restaurants in Mexico City curated by foodies with the highest standards. Every place in the platform is consistently excellent.
+          </div>
+          <div class="technical">
+            <div class="spec"> Javascript </div>
+            <div class="spec"> Node.js </div>
+            <div class="spec"> Express </div>
+            <div class="spec"> MySQL </div>
+            <div class="spec"> Materialize </div>
+            <div class="spec"> Handlebars.js </div>
+            <div class="spec"> Mapbox </div>
+          </div>
+          <div class="button-bar">
+            <a href="https://muysalsa.herokuapp.com"><div class="project-button launch">Launch</div></a>
+            <a href="https://github.com/IscoCuesta/Proyect-2"><div class="project-button code">Code</div></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row secondary rowtwo">
+
+      <div class="project hoverable" id="projectfour">
+        <div class="card-front">
+          <img class="responsive" src="assets/images/muy-salsa.png" alt="Muy Salsa">
+        </div>
+        <div class="card-back">
+          <h4 class="back-title"> Muy Salsa </h4>
+          <div class="description">
+            App to find the best restaurants in Mexico City curated by foodies with the highest standards. Every place in the platform is consistently excellent.
+          </div>
+          <div class="technical">
+            <div class="spec"> Javascript </div>
+            <div class="spec"> Node.js </div>
+            <div class="spec"> Express </div>
+            <div class="spec"> MySQL </div>
+            <div class="spec"> Materialize </div>
+            <div class="spec"> Handlebars.js </div>
+            <div class="spec"> Mapbox </div>
+          </div>
+          <div class="button-bar">
+            <a href="https://muysalsa.herokuapp.com"><div class="project-button launch">Launch</div></a>
+            <a href="https://github.com/IscoCuesta/Proyect-2"><div class="project-button code">Code</div></a>
+          </div>
+        </div>
+      </div><div class="project hoverable" id="projectfive">
+        <div class="card-front">
+          <img class="responsive" src="assets/images/gifs-and-rec.png" alt="Gifs and Rec">
+        </div>
+        <div class="card-back">
+            <h4 class="back-title"> GIFs and Rec </h4>
+            <div class="description">
+              A site for lovers of GIFs and Parks and Recreation. Clicking on characters will show random gifs of them. You can download or save your favorites.
+            </div>
+            <div class="technical">
+              <div class="spec"> Javascript </div>
+              <div class="spec"> jQuery </div>
+              <div class="spec"> Bootstrap </div>
+              <div class="spec"> Giphy API </div>
+              <div class="spec"> Local storage </div>
+            </div>
+            <div class="button-bar">
+              <a href="https://edchavezb.github.io/gifs-and-rec/"><div class="project-button launch">Launch</div></a>
+              <a href="https://github.com/edchavezb/gifs-and-rec"><div class="project-button code">Code</div></a>
+            </div>
+        </div>
+      </div><div class="project hoverable" id="projectsix">
+        <div class="card-front">
+          <img class="responsive" src="assets/images/crystal-madness.png" alt="Crystal Madness">
+        </div>
+        <div class="card-back">
+            <h4 class="back-title"> Crystal Madness </h4>
+            <div class="description">
+              Math game that uses jQuery and Bootstrap. The goal is to reach (but not surpass) the specificied number by picking up crystals with different values.
+            </div>
+            <div class="technical">
+              <div class="spec"> Javascript </div>
+              <div class="spec"> jQuery </div>
+              <div class="spec"> Bootstrap </div>
+            </div>
+            <div class="button-bar">
+              <a href="https://edchavezb.github.io/crystal-game/"><div class="project-button launch">Launch</div></a>
+              <a href="https://github.com/edchavezb/crystal-game"><div class="project-button code">Code</div></a>
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <div id="contact-title">
+      <h1 class="title-style"> Interested in working with me? Let's get acquainted!</h1>
+    </div>
+    <div id="contact-content">
+      
+    
+      <div class= "contact-form">
+
+        <div class="textbox">
+          <label>Full Name: </label>
+          <input type="text" name= "" value="" placeholder="Enter your name">
+        </div>
+
+        <div class="textbox">
+          <label>Email: </label>
+          <input type="email" name= "" value="" placeholder="Enter your email">
+        </div>
+
+        <div class="textbox">
+          <label>Message: </label>
+          <textarea> </textarea>
+        </div>
+
+        <div id="button-row">
+          <div class="sendbutton"> Send </div>
+        </div>
+
+      
+      </div>
+    </div>
+  </section>
+
   <footer>
-    <a class="social-media-icon" href="https://linkedin.com/in/edgar821"><i class="fab fa-linkedin icon"></i></a>
-    <a class="social-media-icon" href="https://github.com/edgar821"><i class="fab fa-github icon"></i></a>
-    <a class="social-media-icon" href="mailto:edgp.chavez@gmail.com"><i class="fas fa-at icon"></i></a>
+    <p id="copyright"> &#169; Edgar Chavez 2020 </p>
   </footer>
 </body>
 </html>

@@ -2,10 +2,17 @@ body{
 	margin: 0px;
 }
 
+#contact-title {
+    width: 40%;
+}
+
+#contact-content {
+    width: 60%;
+}
+
 .contact-form {
-    width: 80%;
+    width: 75%;
     max-height: 80%;
-    background: #f8f7f7;
     position: relative;
     margin: 8vh auto;
     padding-top: 5%;
@@ -43,17 +50,24 @@ input, textarea {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#button-row {
+    display: flex;
+    justify-content: center;
+}
+
 .sendbutton {
     display: inline-block;
-    background: #4a8faa;
+    background: #25486C;
     padding: 14px 0;
     color: white;
     text-transform: uppercase;
     cursor: pointer;
     margin-top: 8px;
-    width: 100%;
+    width: 25%;
+    height: 20px;
+    border-radius: 10px;
     text-align: center;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 @media (max-width:768px) {
