@@ -306,23 +306,24 @@
 
         <div class="textbox">
           <label>Full Name: </label>
-          <input type="text" name= "" value="" placeholder="Enter your name">
+          <input type="text" id="name-input" name="name" value="" placeholder="Enter your name">
         </div>
 
         <div class="textbox">
           <label>Email: </label>
-          <input type="email" name= "" value="" placeholder="Enter your email">
+          <input type="email" id="email-input" name="email" value="" placeholder="Enter your email">
         </div>
 
         <div class="textbox">
           <label>Message: </label>
-          <textarea> </textarea>
+          <textarea id="msg-input"> </textarea>
         </div>
 
         <div id="button-row">
-          <div class="sendbutton"> Send </div>
+          <div id="send" class="sendbutton"> Send </div>
         </div>
 
+        <p id="confirmation" class="conf-hidden"> Your message has been sent. Thanks! </p>
       
       </div>
     </div>
@@ -331,5 +332,8 @@
   <footer>
     <p id="copyright"> &#169; Edgar Chavez 2020 </p>
   </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase.js"></script>
+  <script src="./main.js"></script>
 </body>
 </html>

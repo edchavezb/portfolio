@@ -113,6 +113,20 @@ footer {
   font-weight: bold;
 }
 
+#confirmation {
+  text-align: center;
+  color: rgb(20, 40, 59);
+}
+
+.conf-hidden {
+  display: none;
+}
+
+.conf-visible {
+  display: block;
+  text-align: center;
+}
+
 @media (max-width:576px){
   .nav-content {
     width: 100%;
