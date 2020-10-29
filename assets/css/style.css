@@ -109,6 +109,10 @@ footer {
   color: #ffffff;
 }
 
+#playlists {
+  font-weight: bold;
+}
+
 @media (max-width:576px){
   .nav-content {
     width: 100%;
