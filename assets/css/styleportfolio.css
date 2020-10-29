@@ -110,7 +110,7 @@
 	display: inline-block;
 	color: #25486C;
 	font-weight: bold;
-	font-size: 1em;
+	font-size: .8em;
 	border-radius: 15px;
 	background: whitesmoke;
 	padding: 1px 6px;
@@ -247,8 +247,12 @@
 		padding-bottom: 75%;
 	}
 
-	.description, .spec{
+	.description {
 		font-size: 1em;
+	}
+
+	.spec {
+		font-size: .8em;
 	}
 
 	#projects {
@@ -257,6 +261,7 @@
 	}
 	
 	#projects-title {
+		font-size: 1.5em;
 		margin-top: 0px;
 		margin-bottom: 0px;
 	}
