@@ -158,4 +158,24 @@ footer {
   .title-style{
     margin-top: 3vh;
   }
+
+  #contact-bar {
+    width: 160px;
+    min-height: 0px;
+    height: 50px;
+    top: initial;
+    bottom: 2%;
+    right: 50%;
+    border-radius: 30px;
+    transform: translateY(-50%);
+    transform: translateX(50%);
+    flex-direction: row;
+  }
+
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 8px 8px;
+    border-radius: 50%
+  }
 }
