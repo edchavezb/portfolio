@@ -3,19 +3,21 @@ body{
 }
 
 #contact-title {
-    width: 40%;
+    width: 35%;
+    padding: 0px 5%;
+    box-sizing: border-box;
 }
 
 #contact-content {
-    width: 60%;
+    width: 65%;
 }
 
 .contact-form {
-    width: 75%;
+    width: 80%;
     max-height: 80%;
     position: relative;
     margin: 8vh auto;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
@@ -73,8 +75,18 @@ input, textarea {
 @media (max-width:768px) {
     .contact-form {
         width: 100%;
-        margin: 30px auto;
+        margin: 0 auto;
         padding-left: 5%;
         padding-right: 5%;
+        padding-bottom: 50px
+    }
+
+    #contact-title {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    #contact-content {
+        width: 100%
     }
 }

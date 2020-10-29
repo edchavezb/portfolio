@@ -11,6 +11,7 @@ body{
     overflow: hidden;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .title-style {
@@ -25,11 +26,16 @@ body{
     margin: 0px 0px 20px 0px;
 }
 
-#bio-image {
+#image-div {
     display: inline-block;
     margin-top: 5vh;
     width: 25%;
-    vertical-align: top;
+    display: flex;
+    justify-content: center;    
+}
+
+#bio-image {
+    width: 100%;
     border-radius: 50%
 }
 
@@ -38,7 +44,7 @@ body{
     margin-left: 5%;
     padding: 5%;
     box-sizing: border-box;
-    width: 74%;
+    width: 70%;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
@@ -55,6 +61,7 @@ body{
     display: flex;
     padding: 0px 5%;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #skills-illustration {
@@ -94,16 +101,35 @@ body{
     margin-top: 5vh;
 }
 
-@media (max-width:1014px){
-    .bio-image {
-        width: 40%
+@media (max-width:992px){
+    #image-div {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #bio-image {
+        width: 50%
     }
 
     .mainbio {
-        width: 40%;
+        width: 100%;
         margin-left: 50px;
         padding-top: 0;
     }
+
+    #skills-illustration {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #skills-content {
+        width: 100%;
+    }
+
+    #skills-title {
+        margin: 20px 0px 20px 0px;
+    }
+
 }
 
 @media (max-width:768px) {
@@ -116,16 +142,39 @@ body{
 
     .bio-image {
         width: 50%;
-        float: none;
         margin-left: 25%;
         margin-right: 25%;
         margin-top: 0vh;
     }
 
     .mainbio {
-        float: none;
         width: auto;
         margin: 0 auto;
         padding: 30px 0px;
+    }
+}
+
+@media (max-width:576px) {
+
+    #image-div {
+        margin-bottom: 30px;
+    }
+
+    .tech-icon {
+        width: 20%;
+        margin: 10px 15%;
+    }
+
+    #bio-image {
+        width: 60%;
+    }
+
+    .mainbio {
+        padding: 0px 10px 15px 10px;
+        text-align: initial;
+    }
+
+    #main-title {
+        font-size: 2em;
     }
 }
