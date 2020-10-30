@@ -66,3 +66,20 @@ let sendEmail = (name, email, message) => {
 }
 
 sendButton.addEventListener("click", submitMessage)
+
+let cursor = document.querySelector("#cursor");
+let visible = true;
+
+const flickerFunc = () => {
+	if (!visible){
+		cursor.classList.add("cursor-visible");
+		cursor.classList.remove("cursor-hidden");
+		visible = true;
+	} else {
+		cursor.classList.add("cursor-hidden");
+		cursor.classList.remove("cursor-visible");
+		visible = false;
+	}
+}
+
+let flickerInterval = setInterval(flickerFunc, 500)

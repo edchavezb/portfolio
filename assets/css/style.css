@@ -129,6 +129,14 @@ footer {
   text-align: center;
 }
 
+.cursor-visible {
+  display: inline-block;
+}
+
+.cursor-hidden {
+  display: none;
+}
+
 @media (max-width:992px){
   .content {
     padding: 50px 2.5%;
