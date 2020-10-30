@@ -113,8 +113,8 @@ body{
 
     .mainbio {
         width: 100%;
-        margin-left: 50px;
-        padding-top: 0;
+        margin-left: 0px;
+        padding-top: 0px;
     }
 
     #skills-illustration {
@@ -134,6 +134,10 @@ body{
 
 @media (max-width:768px) {
 
+    #image-div {
+        margin-bottom: 20px;
+    }
+
     .bio-container{
         width: 100%;
         padding-left: 0%;
@@ -141,7 +145,7 @@ body{
     }
 
     .bio-image {
-        width: 50%;
+        width: 40%;
         margin-left: 25%;
         margin-right: 25%;
         margin-top: 0vh;
@@ -155,6 +159,10 @@ body{
 }
 
 @media (max-width:576px) {
+
+    #tech-stack {
+        margin-bottom: 120px;
+    }
 
     #image-div {
         margin-bottom: 30px;
