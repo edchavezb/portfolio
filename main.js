@@ -48,4 +48,21 @@ let submitMessage = () => {
     database.ref().update({msgCount: updatedCount});
 }
 
+let sendEmail = (name, email, message) => {
+    let httpRequest = new XMLHttpRequest();
+
+    httpRequest.onreadystatechange = (res) => {
+        console.log(res);
+    };
+
+    let mailContents = {
+        message: message,
+        name: name,
+        email: email
+    }
+
+    httpRequest.open('POST', 'https://us-central1-portfolio-e44b3.cloudfunctions.net/sendMailToHost', true);
+    httpRequest.send(mailContents);
+}
+
 sendButton.addEventListener("click", submitMessage)
