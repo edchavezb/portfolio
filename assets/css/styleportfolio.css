@@ -249,4 +249,8 @@
 		font-size: 1.3em;
 	}
 
+	.card-back, .responsive {
+		border-radius: 0px;
+	}
+
 }
