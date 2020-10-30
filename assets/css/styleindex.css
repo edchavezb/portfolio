@@ -14,13 +14,6 @@ body{
     flex-wrap: wrap;
 }
 
-.title-style {
-    font-family: 'Nunito Sans', sans-serif;
-	font-weight: bold;
-    text-align: center;
-    color: rgb(20, 40, 59);
-}
-
 #main-title { 
     font-size: 3em;
     margin: 0px 0px 20px 0px;

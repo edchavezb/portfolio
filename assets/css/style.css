@@ -37,7 +37,7 @@ nav {
 
   background: #25486C;
   color: #ffffff;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 22px;
   font-weight: bold;
   text-align: center;
@@ -86,7 +86,7 @@ a {
 }
 
 .title-style{
-	font-family: 'Nunito Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
   text-align: center;
   color: rgb(20, 40, 59);
