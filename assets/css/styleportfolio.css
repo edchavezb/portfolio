@@ -13,9 +13,9 @@
 #projects-title {
 	text-align: center;
 	margin-top: 1vh;
-	margin-bottom: 50px;
-	font-size: 2em;
+	margin-bottom: 30px;
 	font-weight: bold;
+	font-size: 1.5em;
 }
 
 .projects-wrapper {
@@ -58,7 +58,7 @@
  	width: 100%;
 	border-radius: 3px;
 	z-index: 1;
-	font-family: 'Nunito Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .card-front {
