@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Poppins';
+  src:  url('../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins-Regular.woff') format('woff'),
+        url('../fonts/Poppins-Regular.ttf') format('truetype');
+}
+
 html,body {
   margin: 0px;
   padding: 0px;
@@ -222,7 +229,7 @@ footer {
 
 .tech-text {
   text-align: center;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Poppins';
   color: #14283B;
   font-weight: bold;
 }
