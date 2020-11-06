@@ -261,11 +261,17 @@ footer {
   width: 100%;
   height: 94%;
   background-color: #37474F;
-  font-size: .5em;
+  font-size: .75em;
+  font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   color: coral;
   padding: 5% 12.5%;
   box-sizing: border-box;
+}
+
+.laptop-content > p {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
 }
 
 .laptop-base {
@@ -750,7 +756,7 @@ input, textarea {
     padding: 2% 8%;
   }
 
-  .laptop-content > h1 {
+  .laptop-content > p {
     margin: 5px 0px;
   }
 
