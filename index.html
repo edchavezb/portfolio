@@ -31,11 +31,12 @@
     <div class="nav-content">
 
       <div class="logo">
+        <img src="./assets/images/ec.png" id="logoimg">
         Edgar Chávez
       </div>
 
       <nav>
-        <a href="https://drive.google.com/file/d/1c6Rn7TVVJiVsoZYkyTLa0iuNIGDC2n71/view?usp=sharing"> Download CV</a>
+        <a href="https://drive.google.com/file/d/18sDhDcyo1tiZ23I5btnRPmKlcwYD-Oa0/view?usp=sharing"> Download CV</a>
       </nav>
 
     </div>
@@ -53,7 +54,8 @@
         <h1 class="title-style" id="main-title">
           Hi, I'm Edgar
         </h1>
-        <p class="top-paragraph">I am a Full-stack Web Developer currently enrolled in the second year of the Software Development and Network Engineering program at Sheridan College in Ontario, Canada. I am a curious and motivated professional who would love to build software that helps people and communities function more efficiently and sustainably. My favorite activities are REST API and React development. When I'm not coding you can probably find me playing guitar or curating <a id="playlists" href="https://open.spotify.com/user/1276574327"> playlists </a> of various genres.</p>
+        <p class="top-paragraph">I am a Full-stack Web Developer recently graduated from the Computer Systems Technician - Software Engineering program at Sheridan College in Ontario, Canada. I am a curious and motivated professional who would love to build software that helps people and communities function more efficiently and sustainably. </p>
+        <p class="top-paragraph"> I enjoy working on REST API development and React apps. When I'm not coding you can probably find me playing guitar or curating <a id="playlists" href="https://open.spotify.com/user/1276574327"> playlists </a> of various genres.</p>
       </div>
 
     </div>
@@ -100,7 +102,58 @@
     <p class="title-style" id="projects-title"> Projects I'm proud of </p>
 
     <div class="projects-wrapper">
-    
+
+
+      <div class="project hoverable" id="projectone">
+        <div class="card-front">
+          <img class="responsive" src="assets/images/oasis.png" loading="lazy" alt="Oasis Financiero">
+        </div>
+        <div class="card-back">
+          <h4 class="back-title"> Oasis Financiero </h4>
+          <div class="description">
+            Ported a designer’s mockup with Tailwind and CSS Modules to create a responsive landing page. 
+            Built the site’s blog using Gatsby, GraphQL and Markdown.
+          </div>
+          <div class="technical">
+            <div class="spec"> React.js </div>
+            <div class="spec"> Gatsby </div>
+            <div class="spec"> GraphQL </div>
+            <div class="spec"> Tailwind </div>
+            <div class="spec"> Markdown </div>
+          </div>
+          <div class="button-bar">
+            <a href="https://oasisfinanciero.mx"><div class="project-button launch">Launch</div></a>
+            <a href="https://github.com/edchavezb/oasis-landing"><div class="project-button code">Code</div></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="project hoverable" id="projecttwo">
+        <div class="card-front">
+          <img class="responsive" src="assets/images/ybx.png" loading="lazy" alt="Yellowbox">
+        </div>
+        <div class="card-back">
+          <h4 class="back-title"> Yellowbox </h4>
+          <div class="description">
+            Used Hooks, CSS modules and ES6 syntax to build the app’s frontend.
+            Consumed multiple API endpoints to source data for artists, albums and lyrics.
+          </div>
+          <div class="technical">
+            <div class="spec"> In progress </div>
+            <div class="spec"> React.js </div>
+            <div class="spec"> Spotify API </div>
+            <div class="spec"> CSS Modules </div>
+            <div class="spec"> TypeScript </div>
+            <div class="spec"> Redux </div>
+          </div>
+          <div class="button-bar">
+            <a href="https://yellowbox.netlify.app"><div class="project-button launch">Launch</div></a>
+            <a href="https://github.com/edchavezb/yellowbox-web-app"><div class="project-button code">Code</div></a>
+          </div>
+        </div>
+      </div>
+
       <div class="project hoverable" id="projectone">
         <div class="card-front">
           <img class="responsive" src="assets/images/dondeayudar.png" loading="lazy" alt="Donde Ayudar">
@@ -121,6 +174,30 @@
           <div class="button-bar">
             <a href="https://donde-ayudar.herokuapp.com"><div class="project-button launch">Launch</div></a>
             <a href="https://github.com/IscoCuesta/dondeAyudar"><div class="project-button code">Code</div></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project hoverable" id="projectthree">
+        <div class="card-front">
+          <img class="responsive" src="assets/images/zoezi.png" loading="lazy" alt="Zoezi">
+        </div>
+        <div class="card-back">
+          <h4 class="back-title"> Zoezi </h4>
+          <div class="description">
+            Fitness app that allows users to create and play workout routines. It also displays fun gifs of your exercises.  
+          </div>
+          <div class="technical">
+            <div class="spec"> Javascript </div>
+            <div class="spec"> jQuery </div>
+            <div class="spec"> Bootstrap </div>
+            <div class="spec"> Firebase </div>
+            <div class="spec"> Giphy API </div>
+            <div class="spec"> Owl Carousel </div>
+          </div>
+          <div class="button-bar">
+            <a href="https://edchavezb.github.io/zoezi/"><div class="project-button launch">Launch</div></a>
+            <a href="https://github.com/edchavezb/zoezi"><div class="project-button code">Code</div></a>
           </div>
         </div>
       </div>
@@ -149,54 +226,6 @@
         </div>
       </div>
       
-      <div class="project hoverable" id="projectthree">
-        <div class="card-front">
-          <img class="responsive" src="assets/images/zoezi.png" loading="lazy" alt="Zoezi">
-        </div>
-        <div class="card-back">
-          <h4 class="back-title"> Zoezi </h4>
-          <div class="description">
-            Fitness app that allows users to create and play workout routines. It also displays fun gifs of your exercises.  
-          </div>
-          <div class="technical">
-            <div class="spec"> Javascript </div>
-            <div class="spec"> jQuery </div>
-            <div class="spec"> Bootstrap </div>
-            <div class="spec"> Firebase </div>
-            <div class="spec"> Giphy API </div>
-            <div class="spec"> Owl Carousel </div>
-          </div>
-          <div class="button-bar">
-            <a href="https://edchavezb.github.io/zoezi/"><div class="project-button launch">Launch</div></a>
-            <a href="https://github.com/edchavezb/zoezi"><div class="project-button code">Code</div></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="project hoverable" id="projectfour">
-        <div class="card-front">
-          <img class="responsive" src="assets/images/scraper.png" loading="lazy" alt="Album Scraper">
-        </div>
-        <div class="card-back">
-          <h4 class="back-title"> Album Scraper </h4>
-          <div class="description">
-            Scrapes the newest music releases from Metacritic and allows users to add personal notes to each album.
-          </div>
-          <div class="technical">
-            <div class="spec"> Javascript </div>
-            <div class="spec"> Node.js </div>
-            <div class="spec"> Express </div>
-            <div class="spec"> MongoDB </div>
-            <div class="spec"> Cheerio </div>
-            <div class="spec"> Bootstrap </div>
-          </div>
-          <div class="button-bar">
-            <a href="https://album-scraper.herokuapp.com"><div class="project-button launch">Launch</div></a>
-            <a href="https://github.com/edchavezb/album-scraper"><div class="project-button code">Code</div></a>
-          </div>
-        </div>
-      </div>
-      
       <div class="project hoverable" id="projectfive">
         <div class="card-front">
           <img class="responsive" src="assets/images/gifs-and-rec.png" loading="lazy" alt="Gifs and Rec">
@@ -219,8 +248,32 @@
             </div>
         </div>
       </div>
+
+      <!-- <div class="project hoverable" id="projectfour">
+        <div class="card-front">
+          <img class="responsive" src="assets/images/scraper.png" loading="lazy" alt="Album Scraper">
+        </div>
+        <div class="card-back">
+          <h4 class="back-title"> Album Scraper </h4>
+          <div class="description">
+            Scrapes the newest music releases from Metacritic and allows users to add personal notes to each album.
+          </div>
+          <div class="technical">
+            <div class="spec"> Javascript </div>
+            <div class="spec"> Node.js </div>
+            <div class="spec"> Express </div>
+            <div class="spec"> MongoDB </div>
+            <div class="spec"> Cheerio </div>
+            <div class="spec"> Bootstrap </div>
+          </div>
+          <div class="button-bar">
+            <a href="https://album-scraper.herokuapp.com"><div class="project-button launch">Launch</div></a>
+            <a href="https://github.com/edchavezb/album-scraper"><div class="project-button code">Code</div></a>
+          </div>
+        </div>
+      </div> -->
       
-      <div class="project hoverable" id="projectsix">
+      <!-- <div class="project hoverable" id="projectsix">
         <div class="card-front">
           <img class="responsive" src="assets/images/crystal-madness.png" loading="lazy" alt="Crystal Madness">
         </div>
@@ -239,7 +292,7 @@
               <a href="https://github.com/edchavezb/crystal-game"><div class="project-button code">Code</div></a>
             </div>
         </div>
-      </div>
+      </div> -->
 
     </div>
 
@@ -280,7 +333,7 @@
   </section>
 
   <footer>
-    <p id="copyright"> &#169; Edgar Chavez 2020 </p>
+    <p id="copyright"> &#169; Edgar Chavez 2022 </p>
   </footer>
 
   <script defer src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
